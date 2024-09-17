@@ -5,7 +5,11 @@ btn.addEventListener('click', function(){
     const numberBox = parseFloat(document.getElementById('number').value);
     const oldPrice = document.getElementById('oldPrice')
     const price = parseFloat(oldPrice.innerText);
-
+    
+    //for empty click
+    if(textBox === ''){
+       return alert('Please Add Product and Price')
+    }
     const newPrice = price + numberBox;
     oldPrice.innerText = newPrice.toFixed(0);
 
@@ -18,6 +22,7 @@ btn.addEventListener('click', function(){
 
     document.getElementById('text').value = '';
     document.getElementById('number').value = '';
+
 })
 
 
