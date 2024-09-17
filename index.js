@@ -15,6 +15,9 @@ btn.addEventListener('click', function(){
     newItem.innerText = textBox+": "  + "$" + numberBox;
     const container = document.getElementById('showData');
     container.appendChild(newItem)
+
+    document.getElementById('text').value = '';
+    document.getElementById('number').value = '';
 })
 
 

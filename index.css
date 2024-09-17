@@ -15,10 +15,12 @@
     font-family: cursive;
 }
 .inputBox {
-    padding: 10px 190px 10px 5px;
     margin: 10px 0;
     border: none;
     border-radius: 6px;
+    width: 78%;
+    height: 31px;
+    padding-left: 12px;
 }
 
 button {
