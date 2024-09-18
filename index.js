@@ -25,8 +25,6 @@ btn.addEventListener('click', function(){
 
 })
 
-
-
 const cleanAll = document.getElementById('cleanItem');
 cleanAll.addEventListener('click', function(){
     

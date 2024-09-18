@@ -1,6 +1,5 @@
 .main {
-    /* height: 300px; */
-    width: 28%;
+    width: 24%;
     background-color: aquamarine;
     margin: auto;
     padding: 30px 70px;
@@ -18,11 +17,10 @@
     margin: 10px 0;
     border: none;
     border-radius: 6px;
-    width: 78%;
+    width: 93%;
     height: 31px;
     padding-left: 12px;
 }
-
 button {
     padding: 6px 20px;
     border: none;
